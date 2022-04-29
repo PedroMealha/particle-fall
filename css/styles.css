@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+}
+html *,
+body * {
+  position: absolute;
+}
+html .c-hv,
+body .c-hv {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+html .c-h,
+body .c-h {
+  left: 50%;
+  transform: translateX(-50%);
+}
+html .c-v,
+body .c-v {
+  top: 50%;
+  transform: translateY(-50%);
+}
+html .f-wh,
+body .f-wh {
+  width: 100%;
+  height: 100%;
+}
+html .f-w,
+body .f-w {
+  width: 100%;
+}
+html .f-h,
+body .f-h {
+  height: 100%;
+}
+html .rel,
+body .rel {
+  position: relative;
+}
+html #stage,
+body #stage {
+  background-color: #222;
+}
+html canvas,
+body canvas {
+  cursor: pointer;
+}
+html #border,
+body #border {
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  right: 1px;
+  border: 1px solid gold;
+  pointer-events: none;
+}
